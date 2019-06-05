@@ -32,5 +32,5 @@ Credits:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 ---
-permalink: /index.html
+permalink: /index.html 
 ---
