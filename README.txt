@@ -1,25 +1,11 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Rongyao Fang's Homepage
+
+I am Rongyao Fang, a B.Eng. student at Department of Electronic Engineering @ Shanghai Jiao Tong University. I major in Electronic Engineering (Artificial Intelligence track). My overall GPA is 92.16/100 or 4.00/4.3 and ranked 1st/158 in my department. 
+
+For further information, please refer to my homepage https://lucasfangry.github.io/ .
 
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
+'''
 Credits:
 
 	Demo Images:
@@ -31,6 +17,8 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+'''
+
 ---
 permalink: /index.html 
 ---
