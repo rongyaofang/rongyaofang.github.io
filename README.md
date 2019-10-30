@@ -4,7 +4,7 @@ I am Rongyao Fang, a B.Eng. student at Department of Electronic Engineering @ Sh
 
 My research interests lie in computer vision and deep learning, particularly 3D computer vision and medical imaging, as well as the application in wireless sensing and adversarial example. I am open to exploring other interesting topics.
 
-For further information, please refer to my homepage https://rongyaofang.github.io/ .
+For my research experiences and further information, please refer to my homepage https://rongyaofang.github.io/ .
 
 
 
