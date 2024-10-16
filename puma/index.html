@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <link rel="icon" type="image/png" href="./img/icon.png">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <style>
+        iframe {
+            height: 75vh;
+            width: 100%;
+            /* or any width you prefer */
+            border: none;
+        }
+    </style>
+
+    <title>PUMA Multimodal</title>
+
+    <meta name="description" content="PUMA Multimodal">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+    <!--FACEBOOK-->
+    <meta property="og:image" content="./img/main_figure.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="2603">
+    <meta property="og:image:height" content="1584">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://rongyaofang.github.io/puma"/>
+    <meta property="og:title" content="PUMA Multimodal" />
+    <meta property="og:description"
+        content="Project page for PUMA Multimodal." />
+
+    <!--TWITTER-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PUMA Multimodal" />
+    <meta name="twitter:description"
+        content="Project page for PUMA Multimodal." />
+    <meta name="twitter:image" content="./img/main_figure.jpg" />
+
+
+    <!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-52J0PM8XKV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-52J0PM8XKV');
+    </script>
+
+
+    <style>
+        .nav-pills {
+            position: relative;
+            display: inline;
+        }
+
+        .author {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+            /* If you want dots under the hoverable text */
+        }
+
+        /* Tooltip text */
+        .author .affiliation {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+
+            /* Position the tooltip text - see examples below! */
+            position: absolute;
+            z-index: 1;
+            width: 120px;
+            top: 100%;
+            left: 50%;
+            margin-left: -60px;
+            /* Use half of the width (120/2 = 60), to center the tooltip */
+        }
+
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .author:hover .affiliation {
+            visibility: visible;
+        }
+
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .video-wrapper {
+            flex: 1;
+            margin-right: 2px;
+            margin-left: 2px;
+            max-width: calc(33.33%px);
+            /* 33.33% for 3 videos per row, subtracting margins */
+            height: auto;
+            text-align: center;
+        }
+
+        .video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            margin-top: 0px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: row;
+            /* Arrange items horizontally */
+            justify-content: space-between;
+            /* Spread items horizontally */
+            align-items: flex-end;
+            /* Align items at the bottom */
+        }
+
+        .image-container .image-wrapper {
+            flex: 1;
+            /* Distribute equal width to both images */
+            padding: 10px;
+            /* Add some spacing between images */
+        }
+
+        .image-container img {
+            max-width: 100%;
+            /* Constrain image width */
+            height: auto;
+            /* Maintain image aspect ratio */
+            display: block;
+            /* Remove extra space below inline images */
+            margin: 0 auto;
+            /* Center the images within their containers */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                <strong>
+                    <font size="+6">&#128005; <span style="background: linear-gradient(to right, #654321, #D2B48C); -webkit-background-clip: text; color: transparent;">PUMA</span></font></br>
+                    <font size="+6">Empowering Unified MLLM</font></br>
+                    <font size="+6">with Multi-granular Visual Generation</font>
+                </strong>
+            </h2>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-12 text-center">
+                <br>
+                <b><i> The project updated in October 2024 and continues to be updated. </i></b>
+                <!-- <br>
+                For any inquiries, please email <a href="mailto:rongyaofang@gmail.com">rongyaofang@gmail.com</a>
+                <br> -->
+
+                <br>
+                    <a target="_blank" href="https://mmlab.ie.cuhk.edu.hk/">
+                    <image src="img/cuhk_icon.png" height="80px"> </a>
+                      &nbsp; &nbsp; &nbsp;
+                    <a target="_blank" href="https://www.hku.hk/">
+                    <image src="img/hku.png" height="67px"> </a>
+                    <a target="_blank" href="https://www.sensetime.com/en">
+                    <image src="img/sensetime.png" height="80px"> </a>
+                <br>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-8 col-md-offset-2">
+                <br>
+                <p class="text-justify">
+                    The PUMA project aims to push the boundaries of visual generation and understanding within a unified 
+                    multimodal large language model (MLLM) framework. As advancements in AI have enhanced vision-language 
+                    models, there remains a challenge in handling the diverse needs of visual tasks—from generating creative, 
+                    diverse images to precisely controlling visual edits. 
+                    <b>PUMA</b> (<b>P</b>owering <b>U</b>nified MLLM with <b>M</b>ulti-gr<b>A</b>nular visual generation) 
+                    addresses this by integrating multi-granular visual features, enabling a single MLLM to adapt to different 
+                    levels of detail required for various visual tasks. Whether it’s generating an image from text, performing 
+                    detailed image editing, or other visual tasks, PUMA offers a flexible and powerful solution. 
+                </p>
+                <p class="text-justify">
+                    By leveraging advanced multimodal pretraining and fine-tuning techniques, PUMA showcases cutting-edge 
+                    capabilities in diverse applications. Join us as we explore the future of multimodal AI and take a 
+                    significant step towards a more adaptable and unified approach to visual content generation.
+                </p>
+                <p class="text-justify">
+                    <span style="color:#654321; font-weight: bold;">If you're interested in being 
+                    part of the PUMA project or contributing to related research, we’d love to connect! &#128080;
+                </p>
+            </div>
+
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <ul class="nav nav-pills nav-justified">
+
+                    <li>
+                        <a target="_blank" href="https://github.com/rongyaofang/PUMA">
+                            <image src="img/github.png" height="60px">
+                                <h4><strong>Follow us</strong></h4>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>News</b>
+                </h3>
+
+                <p>
+                  <span class="css-rainbow-text"><b>[18 Oct 2024]</b></span>&nbsp;
+                  We are excited to release the preprint of
+                  <span style="background-color: rgb(131, 253, 131)">PUMA</span>,
+                  which integrates unified multi-granular visual generation and understanding capabilities.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>Overall Framework</b>
+                </h3>
+                <img src="img/main_figure.jpg" class="img-responsive"></img>
+        
+                <p>The PUMA framework for multimodal large language models (MLLMs) is structured around a multi-granular 
+                    visual generation paradigm that addresses both the diversity and controllability requirements of various 
+                    image generation tasks. It consists of three core components: a multi-scale image encoder, a unified 
+                    multi-granular MLLM, and dedicated diffusion-based image decoders for each feature scale.</p>
+        
+                <p><b>(a) Image Encoding:</b>
+                  The image encoder processes input images and extracts multi-granular visual features. These features, 
+                  ranging from fine-grained to coarse-grained representations, serve as the foundation for generating diverse 
+                  and controllable images.
+                </p>
+        
+                <p><b>(b) Multi-granular Decoding:</b>
+                  Using a set of diffusion-based decoders corresponding to each feature granularity, PUMA can reconstruct 
+                  fine-grained details for tasks like image editing and generate diverse outputs for tasks like text-to-image 
+                  generation.
+                </p>
+        
+                <p>
+                    <b>(c) Autoregressive MLLM:</b>
+                    The core MLLM is autoregressive and processes both text and visual tokens at multiple granularities, 
+                    adapting to the requirements of various tasks such as conditional image generation, editing, and 
+                    text-to-image generation. 
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>Multi-granular Semantic Visual Decoding</b>
+                </h3>
+
+                <img src="img/visual_decoding.jpg" class="img-responsive"></img>
+
+                <p>
+                    PUMA's visual decoding process spans five granular image representations (f<sub>0</sub> to f<sub>4</sub>) 
+                    and corresponding decoders (D<sub>0</sub> to D<sub>4</sub>), which are trained using SDXL. This allows PUMA 
+                    to achieve visual decoding from precise image reconstruction to semantic-guided generation, 
+                    supporting either high controllability or high diversity.
+                </p>
+
+                <img src="img/rec.jpg" class="img-responsive"></img>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>Diverse Text-to-image Generation</b>
+                </h3>
+                <img src="img/gen.jpg" class="img-responsive"></img>
+                <p>
+                    PUMA excels in diverse text-to-image generation by leveraging its coarse-grained visual features. 
+                    The model enhances both creativity and coherence, producing high-quality images from a wide range of textual prompts. 
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>Image Editing</b>
+                </h3>
+                <img src="img/edit.jpg" class="img-responsive"></img>
+                <p>
+                    PUMA enables precise manipulation of visual content using fine-grained image features.
+                    With its diffusion-based decoders, PUMA allows controlled editing, whether adding or removing objects, or adjusting styles, 
+                    all while preserving the fidelity of the original image.
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>Image Conditional Generation</b>
+                </h3>
+                <img src="img/cond_gen.jpg" class="img-responsive"></img>
+                <p>
+                    PUMA excels in controlled image generation based on specific inputs. 
+                    Whether generating images from canny maps, performing inpainting, or colorizing, 
+                    PUMA’s fine-grained decoding ensures precise and contextually appropriate results.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>Notes</b>
+                </h3>
+                <p>
+                  <b>- Citation: </b>
+                  If you find PUMA useful in your research,
+                  <a target="_blank" href="./citation.txt">please consider citing us</a>.
+                </p>
+
+                <p>
+                  <b>- License: </b>
+                  Our project distributed under <a target="_blank" href="https://github.com/rongyaofang/PUMA/blob/master/LICENSE.txt">Apache 2.0 License</a>.
+                </p>
+
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    <b>Acknowledgements</b>
+                </h3>
+
+                <p>
+                    Our core contributors include Rongyao Fang, Chengqi Duan, Kun Wang, Hongsheng Li, and Xihui Liu.
+                    Sincere thanks for their efforts. We would also like to thank Hao Li, Hao Tian, Xingyu Zeng, Rui Zhao, and Jifeng Dai, 
+                    for their invaluable suggestions, guidance, and support.
+                </p>
+
+                <p>
+                    <br><br>
+                    The website template was borrowed from <a target="_blank" href="https://robotics-transformer-x.github.io/">Open X-Embodiment</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        const authors = document.querySelectorAll('.author');
+
+        authors.forEach(author => {
+            // Get the affiliation from the data-affiliation attribute
+            const affiliation = author.getAttribute('data-affiliation');
+
+            // Create a new span element with the class "affiliation"
+            const span = document.createElement('span');
+            span.className = 'affiliation';
+            span.textContent = `${affiliation}`;
+
+            // Append the span to the author element
+            author.appendChild(span);
+        });
+    </script>
+</body>
+
+</html>
