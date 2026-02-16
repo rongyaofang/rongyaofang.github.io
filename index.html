@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta content="IE=5.0000" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rongyao Fang's home page">
     <title>Rongyao Fang's Homepage</title>
     <meta name="GENERATOR" content="MSHTML 11.00.10570.1001">
@@ -45,6 +46,7 @@
             margin-top: 0.5em;
             margin-bottom: 0em;
             border-bottom: none;
+            font-weight: 700;
         }
         h1, h2, h3 {
             color: rgb(82, 123, 189);
@@ -84,10 +86,10 @@
         }
         table {
             padding: 5px;
-            border-collapse: collapse; /* Better table rendering */
+            border-collapse: collapse;
         }
         td {
-            padding: 5px; /* Add some padding to table cells */
+            padding: 5px;
         }
         img {
             border: none;
@@ -98,29 +100,105 @@
         b {
             font-weight: bold;
         }
+        .lang-switch {
+            float: right;
+            font-size: 14px;
+            font-family: Georgia, serif;
+            margin-top: 8px;
+            margin-right: 4px;
+        }
+        .lang-switch a {
+            color: rgb(150, 150, 150);
+            cursor: pointer;
+            padding: 2px 6px;
+            transition: color 0.2s;
+        }
+        .lang-switch a:hover {
+            color: rgb(34, 75, 141);
+            border-bottom: none;
+        }
+        .lang-switch a.active {
+            color: rgb(34, 75, 141);
+            font-weight: bold;
+        }
+        .lang-switch .sep {
+            color: rgb(200, 200, 200);
+            margin: 0 2px;
+        }
+        .lang-zh { display: none; }
+
+        @media (max-width: 768px) {
+            body {
+                margin: 10px auto;
+                padding: 8px 12px 16px;
+            }
+            #layout-content {
+                padding-left: 0.6em;
+                padding-right: 0.6em;
+            }
+            .lang-switch {
+                float: none;
+                text-align: right;
+                margin-top: 4px;
+                margin-bottom: 8px;
+            }
+            table.profile-table,
+            table.profile-table tbody,
+            table.profile-table tr,
+            table.profile-table td {
+                display: block;
+                width: 100%;
+            }
+            table.profile-table {
+                padding: 0;
+            }
+            table.profile-table td {
+                padding: 0;
+            }
+            table.profile-table td.avatar-cell {
+                margin-bottom: 12px;
+            }
+            table.profile-table td.avatar-cell img {
+                width: 180px;
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+            div#toptitle h1 {
+                font-size: 150%;
+                margin-top: 0.2em;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div id="layout-content" style="margin-top: 25px;">
-        <table>
+
+        <div class="lang-switch">
+            <a id="btn-en" class="active" onclick="switchLang('en')">EN</a>
+            <span class="sep">|</span>
+            <a id="btn-zh" onclick="switchLang('zh')">中文</a>
+        </div>
+
+        <table class="profile-table">
             <tbody>
                 <tr>
-                    <td width="280">
+                    <td width="280" class="avatar-cell">
                         <div>
                             <img width="240" src="images/avatar.jpg" alt="Rongyao Fang">
                         </div>
                     </td>
                     <td style="vertical-align: top;">
                         <div id="toptitle">
-                            <h1>Rongyao Fang 方荣耀</h1>
+                            <h1><span class="lang-en">Rongyao Fang 方荣耀</span><span class="lang-zh">方荣耀</span></h1>
                         </div>
-                        <h3>Researcher</h3>
+                        <h3><span class="lang-en">Researcher</span><span class="lang-zh">研究员</span></h3>
                         <p>
-                            <a href="https://qwen.ai/research" target="_blank">Qwen VL Team</a>
-                            <br>Alibaba Group
+                            <a href="https://qwen.ai/research" target="_blank"><span class="lang-en">Qwen VL Team</span><span class="lang-zh">Qwen VL 团队</span></a>
+                            <br><span class="lang-en">Alibaba Group</span><span class="lang-zh">阿里巴巴集团</span>
                             <br>
-                            <br> Email:
+                            <br> <span class="lang-en">Email:</span><span class="lang-zh">邮箱：</span>
                             <a href="mailto:rongyaofang@gmail.com">rongyaofang@gmail.com</a>
                             <br>
                             <br> 
@@ -135,7 +213,8 @@
             </tbody>
         </table>
 
-        <h2>Biography</h2>
+        <h2><span class="lang-en">Biography</span><span class="lang-zh">个人简介</span></h2>
+        <div class="lang-en">
         <p>
             I am currently a Researcher at <strong>Alibaba Qwen VL Team</strong>, working on unified multimodal large models that seamlessly integrate visual understanding and generation. My research is driven by a passion for <strong>Artificial General Intelligence (AGI)</strong>, with a focus on developing omni-modal foundation models that can perceive, reason, and create across vision, language, and beyond.
             <br><br>
@@ -143,9 +222,19 @@
             <br><br>
             Previously, I was a visiting scholar at MIT CSAIL, advised by <a href="https://www.csail.mit.edu/person/dina-katabi" target="_blank">Prof. Dina Katabi</a>. I obtained my B.Eng. degree from Shanghai Jiao Tong University, where I was ranked <strong>1st/157</strong> and advised by <a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ&hl=en" target="_blank">Prof. Bingbing Ni</a>.
         </p>
+        </div>
+        <div class="lang-zh">
+        <p>
+            我目前在<strong>阿里巴巴 Qwen VL 团队</strong>担任研究员，主要从事统一多模态大模型研究，推动视觉理解与视觉生成的一体化能力提升。我的研究以<strong>通用人工智能（AGI）</strong>为长期目标，关注全模态基础模型，让模型能够在视觉、语言等不同模态间实现统一的感知、推理与生成。
+            <br><br>
+            我于2025年在<a href="https://mmlab.ie.cuhk.edu.hk/" target="_blank">香港中文大学多媒体实验室（MMLab）</a>获得博士学位，导师为<a href="https://www.ee.cuhk.edu.hk/~hsli/" target="_blank">李鸿升教授</a>。博士期间，我也与<a href="https://xh-liu.github.io/" target="_blank">刘希慧教授</a>保持紧密合作。
+            <br><br>
+            此前，我曾在麻省理工学院计算机科学与人工智能实验室（MIT CSAIL）担任访问学者，导师为 <a href="https://www.csail.mit.edu/person/dina-katabi" target="_blank">Prof. Dina Katabi</a>。本科毕业于上海交通大学信息工程专业，排名<strong>第1/157名</strong>，导师为<a href="https://scholar.google.com/citations?user=eUbmKwYAAAAJ&hl=en" target="_blank">倪冰冰教授</a>。
+        </p>
+        </div>
 
-        <h2>News</h2>
-        <ul>
+        <h2><span class="lang-en">News</span><span class="lang-zh">最新动态</span></h2>
+        <ul class="lang-en">
             <li>
                 [Jan. 2026] Two papers accepted to <strong>ICLR 2026</strong>.
             </li>
@@ -159,9 +248,23 @@
                 [Feb. 2025] One paper accepted to <strong>CVPR 2025</strong>.
             </li>
         </ul>
+        <ul class="lang-zh">
+            <li>
+                [2026年1月] 两篇论文被 <strong>ICLR 2026</strong> 接收。
+            </li>
+            <li>
+                [2025年9月] 一篇论文被 <strong>NeurIPS 2025</strong> 接收。
+            </li>
+            <li>
+                [2025年7月] 一篇论文被 <strong>ICCV 2025</strong> 接收。
+            </li>
+            <li>
+                [2025年2月] 一篇论文被 <strong>CVPR 2025</strong> 接收。
+            </li>
+        </ul>
 
-        <h2>Education</h2>
-        <ul>
+        <h2><span class="lang-en">Education</span><span class="lang-zh">教育背景</span></h2>
+        <ul class="lang-en">
             <li>
                 [2021 - 2025] Ph.D. at MMLab, The Chinese University of Hong Kong.
             </li>
@@ -172,9 +275,20 @@
                 [2019 - 2020] Visiting Scholar at CSAIL, Massachusetts Institute of Technology.
             </li>
         </ul>
+        <ul class="lang-zh">
+            <li>
+                [2021 - 2025] 香港中文大学多媒体实验室（MMLab）博士。
+            </li>
+            <li>
+                [2016 - 2020] 上海交通大学信息工程专业工学学士（排名：<strong>第1/157名</strong>）。
+            </li>
+            <li>
+                [2019 - 2020] 麻省理工学院计算机科学与人工智能实验室（CSAIL）访问学者。
+            </li>
+        </ul>
         
-        <h2>Publications</h2>
-        <p>(* indicates equal contribution)</p>
+        <h2><span class="lang-en">Publications</span><span class="lang-zh">学术论文</span></h2>
+        <p><span class="lang-en">(* indicates equal contribution)</span><span class="lang-zh">(* 表示同等贡献)</span></p>
         
         <ul>
             <li>
@@ -207,7 +321,7 @@
                 <div style="margin-top: 5px;"><a style="color: #777;"><strong style="color: #444444;">Rongyao Fang</strong>, C Duan, K Wang, L Huang, H Li, S Yan, H Tian, X Zeng, R Zhao, J Dai, X Liu, H Li</a></div>
                 <div style="margin-top: 5px;"><i>Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2025</i> [<a href="https://arxiv.org/pdf/2503.10639">Paper</a>]</div>
             </li>
-			<li>
+            <li>
                 <div style="margin-top: 15px;"><b>CrossLMM: Decoupling Long Video Sequences from LMMs via Dual Cross-Attention Mechanisms</b></div>
                 <div style="margin-top: 5px;"><a style="color: #777;">S Yan, J Han, J Tsai, H Xue, <strong style="color: #444444;">Rongyao Fang</strong>, L Hong, Z Guo, R Zhang</a></div>
                 <div style="margin-top: 5px;"><i>arXiv preprint, 2025</i> [<a href="https://arxiv.org/pdf/2505.17020">Paper</a>]</div>
@@ -284,8 +398,8 @@
             </li>
         </ul>
 
-        <h2>Experience</h2>
-        <ul>
+        <h2><span class="lang-en">Experience</span><span class="lang-zh">工作经历</span></h2>
+        <ul class="lang-en">
             <li>
                 [Sep. 2025 - Present] Researcher, <strong>Alibaba Qwen VL Team</strong>.
             </li>
@@ -296,9 +410,20 @@
                 [Jun. 2022 - Apr. 2023] Research Intern, <strong>Shanghai AI Laboratory</strong>.
             </li>
         </ul>
+        <ul class="lang-zh">
+            <li>
+                [2025年9月 - 至今] <strong>阿里巴巴 Qwen VL 团队</strong>，研究员。
+            </li>
+            <li>
+                [2024年2月 - 2025年8月] <strong>商汤科技</strong>，研究实习生。
+            </li>
+            <li>
+                [2022年6月 - 2023年4月] <strong>上海人工智能实验室</strong>，研究实习生。
+            </li>
+        </ul>
 
-        <h2>Selected Awards</h2>
-        <ul>
+        <h2><span class="lang-en">Selected Awards</span><span class="lang-zh">所获荣誉</span></h2>
+        <ul class="lang-en">
             <li>
                 [2021] Hong Kong PhD Fellowship.
             </li>
@@ -312,10 +437,59 @@
                 [2017 & 2018] Zhiyuan College Honors Scholarship (Top <strong>5%</strong>).
             </li>
         </ul>
+        <ul class="lang-zh">
+            <li>
+                [2021] 香港政府博士奖学金（Hong Kong PhD Fellowship）。
+            </li>
+            <li>
+                [2020] 上海市优秀毕业生（前 <strong>1%</strong>）。
+            </li>
+            <li>
+                [2017 & 2018] 国家奖学金（前 <strong>1%</strong>）。
+            </li>
+            <li>
+                [2017 & 2018] 致远学院荣誉奖学金（前 <strong>5%</strong>）。
+            </li>
+        </ul>
     </div>
-    <!-- ClustrMaps 访客地图插件 -->
+    <!-- ClustrMaps -->
     <div style="text-align: center; margin-top: 15px; margin-bottom: 15px;">
         <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=70&t=n&d=fo2d1M63A9GgJfrICJNySyGcchtKrwm3xME88Jz7c9s&co=ffffff&ct=ffffff&cmo=ffffff&cmn=ffffff'></script>
     </div>
+
+    <script>
+    function getVisibleDisplay(el) {
+        var tag = el.tagName.toLowerCase();
+        if (tag === 'span' || tag === 'a' || tag === 'strong' || tag === 'b' || tag === 'i') return 'inline';
+        if (tag === 'li') return 'list-item';
+        if (tag === 'tr') return 'table-row';
+        if (tag === 'td' || tag === 'th') return 'table-cell';
+        if (tag === 'tbody') return 'table-row-group';
+        if (tag === 'thead') return 'table-header-group';
+        if (tag === 'tfoot') return 'table-footer-group';
+        return 'block';
+    }
+
+    function switchLang(lang) {
+        var enEls = document.querySelectorAll('.lang-en');
+        var zhEls = document.querySelectorAll('.lang-zh');
+        var btnEn = document.getElementById('btn-en');
+        var btnZh = document.getElementById('btn-zh');
+        if (lang === 'zh') {
+            for (var i = 0; i < enEls.length; i++) enEls[i].style.display = 'none';
+            for (var i = 0; i < zhEls.length; i++) zhEls[i].style.display = getVisibleDisplay(zhEls[i]);
+            btnEn.className = '';
+            btnZh.className = 'active';
+        } else {
+            for (var i = 0; i < enEls.length; i++) enEls[i].style.display = '';
+            for (var i = 0; i < zhEls.length; i++) zhEls[i].style.display = 'none';
+            btnEn.className = 'active';
+            btnZh.className = '';
+        }
+    }
+    (function() {
+        switchLang('en');
+    })();
+    </script>
 </body>
 </html>
