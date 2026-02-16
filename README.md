@@ -1,24 +1,35 @@
 # Rongyao Fang's Homepage
 
-I am Rongyao Fang, a B.Eng. student at Department of Electronic Engineering @ Shanghai Jiao Tong University. I major in Electronic Engineering (Artificial Intelligence track). My overall GPA is 92.2/100 or 4.0/4.3 and ranked **1st/157** in my department. 
+Personal website: https://rongyaofang.github.io/
 
-My research interests lie in computer vision and deep learning, particularly 3D computer vision and medical imaging, as well as the application in wireless sensing and adversarial example. I am open to exploring other interesting topics.
+## Biography
 
-For my research experiences and further information, please refer to my homepage https://rongyaofang.github.io/ .
+I am currently a Researcher at **Alibaba Qwen VL Team**, working on unified multimodal large models that seamlessly integrate visual understanding and generation. My research is driven by a passion for **Artificial General Intelligence (AGI)**, with a focus on developing omni-modal foundation models that can perceive, reason, and create across vision, language, and beyond.
 
+I obtained my Ph.D. from the [Multimedia Laboratory (MMLab)](https://mmlab.ie.cuhk.edu.hk/) at The Chinese University of Hong Kong (CUHK) in 2025, fortunate to be supervised by [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). I also worked closely with [Prof. Xihui Liu](https://xh-liu.github.io/).
 
+Previously, I was a visiting scholar at MIT CSAIL, advised by [Prof. Dina Katabi](https://www.csail.mit.edu/person/dina-katabi). I obtained my B.Eng. degree from Shanghai Jiao Tong University, where I was ranked **1st/157** and advised by [Prof. Bingbing Ni](https://scholar.google.com/citations?user=eUbmKwYAAAAJ&hl=en).
 
+## Education
 
-'''
-Credits:
+- [2021 - 2025] Ph.D. at MMLab, The Chinese University of Hong Kong.
+- [2016 - 2020] B.Eng. in Information Engineering, Shanghai Jiao Tong University (Ranking: **1st/157**).
+- [2019 - 2020] Visiting Scholar at CSAIL, Massachusetts Institute of Technology.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## Experience
 
-	Icons:
-		Font Awesome (fontawesome.io)
+- [Sep. 2025 - Present] Researcher, **Alibaba Qwen VL Team**.
+- [Feb. 2024 - Aug. 2025] Research Intern, **SenseTime**.
+- [Jun. 2022 - Apr. 2023] Research Intern, **Shanghai AI Laboratory**.
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
-'''
+## Selected Awards
+
+- [2021] Hong Kong PhD Fellowship.
+- [2020] Outstanding Graduates of Shanghai (Top **1%**).
+- [2017 & 2018] National Scholarship (Top **1%**).
+- [2017 & 2018] Zhiyuan College Honors Scholarship (Top **5%**).
+
+## Links
+
+- Google Scholar: https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=en
+- GitHub: https://github.com/rongyaofang
