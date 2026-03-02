@@ -4,7 +4,7 @@ Personal website: https://rongyaofang.github.io/
 
 ## Biography
 
-I am currently a Researcher at **Alibaba Qwen VL Team**, working on unified multimodal large models that seamlessly integrate visual understanding and generation. My research is driven by a passion for **Artificial General Intelligence (AGI)**, with a focus on developing omni-modal foundation models that can perceive, reason, and create across vision, language, and beyond.
+I am currently a Research Scientist at **Alibaba Qwen VL Team**, working on unified multimodal large models that seamlessly integrate visual understanding and generation. My research is driven by a passion for **Artificial General Intelligence (AGI)**, with a focus on developing omni-modal foundation models that can perceive, reason, and create across vision, language, and beyond.
 
 I obtained my Ph.D. from the [Multimedia Laboratory (MMLab)](https://mmlab.ie.cuhk.edu.hk/) at The Chinese University of Hong Kong (CUHK) in 2025, fortunate to be supervised by [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). I also worked closely with [Prof. Xihui Liu](https://xh-liu.github.io/).
 
@@ -18,7 +18,7 @@ Previously, I was a visiting scholar at MIT CSAIL, advised by [Prof. Dina Katabi
 
 ## Experience
 
-- [Sep. 2025 - Present] Researcher, **Alibaba Qwen VL Team**.
+- [Sep. 2025 - Present] Research Scientist, **Alibaba Qwen VL Team**.
 - [Feb. 2024 - Aug. 2025] Research Intern, **SenseTime**.
 - [Jun. 2022 - Apr. 2023] Research Intern, **Shanghai AI Laboratory**.
 
