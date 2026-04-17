@@ -4,11 +4,20 @@ Personal website: https://rongyaofang.github.io/
 
 ## Biography
 
-I am currently a Research Scientist at **Alibaba Qwen VL Team**, working on unified multimodal large models that integrate visual understanding and generation, as well as agentic approaches that leverage VLMs to orchestrate visual creation. My research is driven by a passion for **Artificial General Intelligence (AGI)**, with a focus on building omni-modal foundation models that can perceive, reason, and create across vision, language, and beyond.
+I am currently a Research Scientist at **Alibaba Qwen VL Team**, working on AI-powered web and application development and multimodal coding agents that combine visual understanding with code generation for tasks such as vision-to-code. Previously, my research centered on unified multimodal models for visual understanding and generation. I am driven by a passion for **Artificial General Intelligence (AGI)**, with a focus on building systems that bridge perception, reasoning, and autonomous creation.
 
 I obtained my Ph.D. from the [Multimedia Laboratory (MMLab)](https://mmlab.ie.cuhk.edu.hk/) at The Chinese University of Hong Kong (CUHK) in 2025, fortunate to be supervised by [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). I also worked closely with [Prof. Xihui Liu](https://xh-liu.github.io/).
 
 Previously, I was a visiting scholar at MIT CSAIL, advised by [Prof. Dina Katabi](https://www.csail.mit.edu/person/dina-katabi). I obtained my B.Eng. degree from Shanghai Jiao Tong University, where I was ranked **1st/157** and advised by [Prof. Bingbing Ni](https://scholar.google.com/citations?user=eUbmKwYAAAAJ&hl=en).
+
+## News
+
+- [Mar. 2026] Two papers accepted to **ACL 2026**.
+- [Feb. 2026] Two papers accepted to **CVPR 2026**.
+- [Jan. 2026] Two papers accepted to **ICLR 2026**.
+- [Sep. 2025] One paper accepted to **NeurIPS 2025**.
+- [Jul. 2025] One paper accepted to **ICCV 2025**.
+- [Feb. 2025] One paper accepted to **CVPR 2025**.
 
 ## Education
 
