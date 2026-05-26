@@ -4,7 +4,7 @@ Personal website: https://rongyaofang.github.io/
 
 ## Biography
 
-I am currently a Research Scientist at **Alibaba Qwen VL Team**, working on AI-powered web and application development and multimodal coding agents that combine visual understanding with code generation for tasks such as vision-to-code. Previously, my research centered on unified multimodal models for visual understanding and generation. I am driven by a passion for **Artificial General Intelligence (AGI)**, with a focus on building systems that bridge perception, reasoning, and autonomous creation.
+I am currently a Research Scientist at **Alibaba Qwen VL Team**, working on enhancing LLMs' web development capabilities, including vision-to-code generation and vision-language agents for autonomous front-end development. Previously, my research centered on unified multimodal models for visual understanding and generation. I am driven by a passion for **Artificial General Intelligence (AGI)**, with a focus on building systems that bridge perception, reasoning, and autonomous creation.
 
 I obtained my Ph.D. from the [Multimedia Laboratory (MMLab)](https://mmlab.ie.cuhk.edu.hk/) at The Chinese University of Hong Kong (CUHK) in 2025, fortunate to be supervised by [Prof. Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). I also worked closely with [Prof. Xihui Liu](https://xh-liu.github.io/).
 
