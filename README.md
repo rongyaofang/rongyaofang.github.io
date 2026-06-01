@@ -13,7 +13,7 @@ Previously, I was a visiting scholar at MIT CSAIL, advised by [Prof. Dina Katabi
 ## News
 
 - [Mar. 2026] Two papers accepted to **ACL 2026**.
-- [Feb. 2026] Two papers accepted to **CVPR 2026**.
+- [Feb. 2026] Three papers accepted to **CVPR 2026**.
 - [Jan. 2026] Two papers accepted to **ICLR 2026**.
 - [Sep. 2025] One paper accepted to **NeurIPS 2025**.
 - [Jul. 2025] One paper accepted to **ICCV 2025**.
