@@ -12,6 +12,8 @@ Previously, I was a visiting scholar at MIT CSAIL, advised by [Prof. Dina Katabi
 
 ## News
 
+- [Jun. 2026] Two papers accepted to **ECCV 2026**.
+- [Apr. 2026] One paper accepted to **ICML 2026**.
 - [Mar. 2026] Two papers accepted to **ACL 2026**.
 - [Feb. 2026] Three papers accepted to **CVPR 2026**.
 - [Jan. 2026] Two papers accepted to **ICLR 2026**.
